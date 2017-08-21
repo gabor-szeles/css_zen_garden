@@ -28,12 +28,16 @@ h2{
     text-align: center;
     text-shadow: 1.5 px black;
     font-family: Garamond;
+	border-top: solid;
+	border-bottom: solid;
 }
 
 p{
 	font-family: "Helvetica Standard", Garamond, cursive;
 	font-weight: lighter;
+
 }
+
 
 #zen-intro {
     font-family: Garamond, "Times New Roman", Arial, sans-serif;
@@ -57,6 +61,7 @@ p{
 h3{
     font-style: italic;
     color:#8a0707;
+	border-top: solid;
 }
 
 
@@ -73,8 +78,11 @@ abbr{
     left: 0px;
     width: 25%;
     text-align: left;
-    background: transparent url(https://68.media.tumblr.com/03099b0cfc1bb6b15c1c876d8c416352/tumblr_n182irgGHx1t6580co1_400.gif) no-repeat;
+    background: url(https://68.media.tumblr.com/03099b0cfc1bb6b15c1c876d8c416352/tumblr_n182irgGHx1t6580co1_400.gif) no-repeat;
     background-size: cover;
+	border-style: solid;
+	border-color: #8a0707;
+	border-radius: 5px;
 }
 
 .wrapper:hover{
