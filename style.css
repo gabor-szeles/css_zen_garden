@@ -1,0 +1,128 @@
+
+body {
+	font-family: Courier, "Times New Roman", sans-serif;
+    text-align:justify;
+    margin: 0 auto;
+    width: 50em;
+	color: #cb9800;
+    text-shadow: 1px 0 black;
+	background: transparent url(https://vignette1.wikia.nocookie.net/mugen/images/0/00/Doge-head.png/revision/latest?cb=20140518092211) no-repeat center fixed;
+    background-size: cover;
+	}
+
+
+h1{
+    font-family: Impact, Courier, sans-serif;
+    text-align: center;
+    color: #800000;
+    font-size: 100px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+h1:first-letter {
+    font-size: 300%;
+}
+
+h2{
+    text-align: center;
+    text-shadow: 1.5 px black;
+    font-family: Garamond;
+}
+
+p{
+	font-family: "Helvetica Standard", Garamond, cursive;
+	font-weight: lighter;
+}
+
+#zen-intro {
+    font-family: Garamond, "Times New Roman", Arial, sans-serif;
+    color:#8a0707
+}
+
+#zen-intro abbr{
+    color: #cb9800;
+}
+
+#zen-summary ::first-letter{
+    font-weight: bold;
+    font-size: 150%;
+}
+
+#zen-preamble p{
+    color: navy;
+    height: 50px;
+}
+
+h3{
+    font-style: italic;
+    color:#8a0707;
+}
+
+
+abbr{
+    font-size: 130%;
+    color:#8a0707
+}
+
+.wrapper{
+    opacity: 0.0;
+    transition: all 500ms ease-in-out;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 25%;
+    text-align: left;
+    background: transparent url(https://68.media.tumblr.com/03099b0cfc1bb6b15c1c876d8c416352/tumblr_n182irgGHx1t6580co1_400.gif) no-repeat;
+    background-size: cover;
+}
+
+.wrapper:hover{
+    opacity: 1.0;
+}
+
+.wrapper h3{
+    color:navy;
+    font-family: "Comic Sans", Arial;
+    text-decoration: underline;
+}
+
+.wrapper li{
+    color: #8a0707;
+}
+
+.sidebar abbr{
+    font-family: inherit;
+    color: inherit;
+    font-size: inherit;
+}
+
+#design-selection li{
+    color: #8a0707;
+    list-style: armenian;
+}
+
+#design-selection a:hover{
+    color: purple;
+}
+
+footer{
+    clear: both;
+    padding: 3em 10%;
+    text-align: center;
+    position: absolute;
+}
+
+footer > a{
+    float: left;
+    background-color: #e1b303;
+    border:1px solid black;
+    border-radius:5px;
+    color:black;
+    margin-right:50px;
+    padding:10px 10px 10px 10px;
+}
+
+footer > a:hover{
+    background-color: #cb9800;
+}
